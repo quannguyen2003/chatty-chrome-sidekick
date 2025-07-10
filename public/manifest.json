@@ -1,0 +1,25 @@
+
+{
+  "manifest_version": 3,
+  "name": "AI Chat Assistant",
+  "version": "1.0",
+  "description": "Your AI-powered chat assistant in a convenient side panel",
+  "permissions": [
+    "sidePanel",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "Open AI Chat Assistant"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+    "128": "favicon.ico"
+  }
+}
